@@ -131,6 +131,6 @@ if ($form_buscar->is_cancelled()) {
 		
 		<?php 
 }
-
+echo var_dump($fromform);
 echo $OUTPUT->footer (); 
 ?>
