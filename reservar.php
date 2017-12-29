@@ -103,7 +103,7 @@ if ($form_buscar->is_cancelled()) {
 		if ($CFG->reservasSemana == null)
 			$CFG->reservasSemana = 6;
 		
-		var_dump($fromform);
+		
 			
 		//Javascript,CSS and DIV for GWT
 		?>
@@ -130,7 +130,7 @@ if ($form_buscar->is_cancelled()) {
  			weeklyFrequencyBookings = "<?php echo $fromform->fr['frequency']; ?>"
  			advOptions = "<?php echo $fromform->addmultiply; ?>" >
 		</div>
-		
+		<div>"<?php var_dump($fromform);?></div>
 		<?php 
 }
 
