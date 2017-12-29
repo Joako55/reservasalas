@@ -103,6 +103,8 @@ if ($form_buscar->is_cancelled()) {
 		if ($CFG->reservasSemana == null)
 			$CFG->reservasSemana = 6;
 		
+		var_dump($fromform);
+			
 		//Javascript,CSS and DIV for GWT
 		?>
 		<link rel="stylesheet" type="text/css"  
@@ -131,6 +133,6 @@ if ($form_buscar->is_cancelled()) {
 		
 		<?php 
 }
-echo var_dump($fromform);
+
 echo $OUTPUT->footer (); 
 ?>
